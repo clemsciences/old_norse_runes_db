@@ -15,6 +15,14 @@ def read(filename):
         return [row for row in reader]
 
 
+def extract_year(text):
+    if "-" in text:
+        beginning, end = text.split("-")
+        return int((int(end) + int(beginning)) / 2)
+    else:
+        return int(text)
+
+
 if __name__ == "__main__":
     runes_db_filename = "runes_data.csv"
     read(runes_db_filename)
