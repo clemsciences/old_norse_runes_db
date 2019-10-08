@@ -9,9 +9,7 @@
 # python-m twine upload dist/*  # 'twine' must be installed: 'pip install twine'
 
 
-import ast
 import io
-import re
 import os
 from setuptools import find_packages, setup
 
@@ -23,21 +21,12 @@ with io.open(os.path.join(CURDIR, "README.md"), "r", encoding="utf-8") as f:
     README = f.read()
 
 
-def get_version():
-    main_file = os.path.join(CURDIR, "runesdb", "main.py")
-    _version_re = re.compile(r"__version__\s+=\s+(?P<version>.*)")
-    with open(main_file, "r", encoding="utf8") as f:
-        match = _version_re.search(f.read())
-        version = match.group("version") if match is not None else '"unknown"'
-    return str(ast.literal_eval(version))
-
-
 setup(
     name="runesdb",
-    version=get_version(),
+    version="1.0.0",
     author="Clément Besnier",
     author_email="clemsciences@aol.com",
-    description="",
+    description="Parse RuneS DB exports",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/clemsciences/old_norse_runes_db",
