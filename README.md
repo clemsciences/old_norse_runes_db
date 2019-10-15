@@ -7,6 +7,14 @@ are combined.
 
 This repository is completely independent from RuneS-DB.
 
+## Installation
+
+Works for Python 3.6 and above.
+
+```
+$ pip install runesdb
+```
+
 ## Sources
 
 The data is available [here](http://www.runesdb.eu/) where you can export results of a query by clicking on a small 
