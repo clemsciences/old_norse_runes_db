@@ -1,3 +1,5 @@
+![PyPI](https://img.shields.io/pypi/v/runesdb)
+
 # RuneS-DB
 
 RuneS-DB is a platform where [results from different projects on runic inscriptions](https://www.runesdb.eu/project/data-sources/) 
