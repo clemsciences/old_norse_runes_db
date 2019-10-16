@@ -13,6 +13,7 @@ before_script:
 - pip install codecov
 - pip install coveralls
 - pip install matplotlib
+- pip install nose-timer
 
 script:
   # Notes on nose:
@@ -20,7 +21,6 @@ script:
   # https://github.com/coagulant/coveralls-python#nosetests
   # http://nose.readthedocs.org/en/latest/plugins/skip.html
 - nosetests --no-skip --with-coverage --cover-package=runesdb --with-doctest --with-timer
-- ( cd docs && make doctest; )
 
 after_success:
 - codecov
