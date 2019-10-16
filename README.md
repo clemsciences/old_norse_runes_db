@@ -1,4 +1,4 @@
-![PyPI](https://img.shields.io/pypi/v/runesdb) [![Build Status](https://travis-ci.org/clemsciences/old_norse_runes_db.svg?branch=master)](https://travis-ci.org/clemsciences/old_norse_runes_db)
+[![PyPI](https://img.shields.io/pypi/v/runesdb)](https://pypi.org/project/runesdb/) [![Build Status](https://travis-ci.org/clemsciences/old_norse_runes_db.svg?branch=master)](https://travis-ci.org/clemsciences/old_norse_runes_db)
 
 # RuneS-DB
 
