@@ -25,7 +25,7 @@ setup(
     name="runesdb",
     version="1.0.1",
     author="Clément Besnier",
-    author_email="clemsciences@aol.com",
+    author_email="clem@clementbesnier.fr",
     description="Parse RuneS DB exports",
     long_description=README,
     long_description_content_type="text/markdown",

@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from runesdb import PACKDIR
 from runesdb import reader as runesdb_reader
 
-__author__ = ["Clément Besnier <clemsciences@aol.com>", ]
+__author__ = ["Clément Besnier <clem@clementbesnier.fr>", ]
 
 
 class UnitTest(unittest.TestCase):

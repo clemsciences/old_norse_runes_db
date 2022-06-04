@@ -6,7 +6,7 @@ import csv
 import codecs
 
 
-__author__ = ["Clément Besnier <clemsciences@aol.com>", ]
+__author__ = ["Clément Besnier <clem@clementbesnier.fr>", ]
 
 
 def read(filename):

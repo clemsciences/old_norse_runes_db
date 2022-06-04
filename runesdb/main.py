@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-__author__ = ["Clément Besnier <clemsciences@aol.com>", ]
+__author__ = ["Clément Besnier <clem@clementbesnier.fr>", ]
 
 import argparse
 from runesdb import reader
